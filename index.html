@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Telefonica</title>
+</head>
+<body>
+    <h1>Lista de Telefones</h1>
+
+    <!-- Formulário para adicionar contatos -->
+    <form id="form-contato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br>
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone" required>
+        <br>
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <!-- Tabela de contatos -->
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- As linhas da tabela serão inseridas aqui -->
+        </tbody>
+    </table>
+
+    <!-- Link para o arquivo JavaScript externo -->
+    <script src="./exercicio.js"></script>
+</body>
+</html>
